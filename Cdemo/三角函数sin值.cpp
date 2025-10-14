@@ -6,7 +6,7 @@ int main() {
 	double t;
 	scanf_s("%d", &n);
 	if (n > 360) {
-		printf("fuck you!\n");
+		printf("?\n");
 	}
 	else{
 		t = sin(n);
@@ -14,3 +14,4 @@ int main() {
 	}
 	return 0;
 }
+
